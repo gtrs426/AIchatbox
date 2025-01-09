@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "composite": true,  // 添加这一行
+    "outDir": "./dist",  // 确保有输出目录
+    "rootDir": "./src",  // 确保有根目录
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
